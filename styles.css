@@ -106,7 +106,7 @@ main{
 .cardback{
     display:flex;
     flex-direction:column;
-    width:345px;
+    width:340px;
     background-color:hsl(213, 19%, 18%);
     padding:30px;
     border-radius:25px;
