@@ -1,0 +1,148 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+ }
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+body{
+    background-color:hsl(216, 12%, 8%);
+}
+main{
+    display:flex;
+    min-height:100vh;
+    justify-content:center;
+    align-items:center;
+    font-family:"Overpass", sans-serif;
+}
+.star{
+    width:5%;
+    border-radius: 50%;
+   background:hsla(213, 19%, 50%, 0.1 );
+   padding:15px;
+}
+/*cardfront*/
+.cardfront{
+    display:flex;
+    flex-direction:column;
+    width:350px;
+    background-color:hsl(213, 19%, 18%);
+    gap:25px;
+    padding:30px;
+    border-radius:25px;
+    
+}
+.cardfront h1{
+    color:#fff;
+    margin-top:5px;
+    margin-bottom:1px;
+    font-weight:700;
+
+}
+.cardfront p{
+    color:hsl(217, 12%, 63%);
+    margin-top: -15px;
+    margin-bottom: 3px;
+    font-size:15px;
+    font-weight:400;
+    line-height:25px;
+}
+
+.buttonrow{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.button{
+    display: block;
+    border:0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:hsla(213, 19%, 50%, 0.1 );
+    color:hsl(217, 12%, 63%);
+    font-size:17px;
+    font-family:"Overpass", sans-serif;
+    font-weight:400;
+    cursor:pointer;
+}
+/*card-front*/
+/*btn effect*/
+.button:hover{
+    background-color:hsl(217, 12%, 63%);
+    color:#fff;
+}
+.button:focus{
+    background-color:hsl(25, 97%, 53%);
+    color:#fff;
+}
+
+.btn{
+    display:flex;
+    justify-content:center;
+
+}
+.submit{
+    width:100%;
+    padding:15px;
+    border-radius:30px;
+    color:white;
+    background-color: hsl(25, 97%, 53%);
+    border:0;
+    cursor:pointer;
+    font-size:15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.submit:hover{
+    color:hsl(25, 97%, 53%);
+    background-color:#fff;
+}
+.hidden{
+    visibility:hidden;
+}
+/*btn effect*/
+/*card-afterbuttom*/
+.cardback{
+    display:flex;
+    flex-direction:column;
+    width:345px;
+    background-color:hsl(213, 19%, 18%);
+    padding:30px;
+    border-radius:25px;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    gap:30px;
+    position:absolute;
+    top:200px;
+    visibility:hidden;
+}
+.apprating{
+    visibility:visible;
+}
+.rating{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+.cardback h1{
+    color:#fff;
+    margin:0;
+    margin-bottom: 10px;
+}
+.cardback-rating {
+    margin-top:0;
+    background-color: hsla(213, 19%, 50%, 0.1 );
+    width: 100%;
+    padding:5px 20px;
+    border-radius: 100px;
+    border-color: hsla(213, 19%, 50%, 0.1 );
+    font-size:15px;
+    color:hsl(25, 97%, 53%);
+}
+.cardback p{
+    margin:0;
+    color:hsl(217, 12%, 63%);
+    line-height: 25px;
+}
